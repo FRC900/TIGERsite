@@ -2,3 +2,6 @@ theme: jekyll-theme-slate
 
 title: T.I.G.E.R.
 description: Teaching Innovation, Graciousness, and Engineering through Robotics
+
+github:
+  url: team900.org
