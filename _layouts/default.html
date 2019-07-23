@@ -28,6 +28,17 @@
               <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
             </section>
           {% endif %}
+          <!-- Nav -->
+					<nav id="nav">
+
+            <ul class="links">
+              <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+              <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">Getting started</a></li>
+              <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Strategy</a></li>
+              <li class="{% if page.url contains '/sponsors/' %} active {% endif %}"><a href="{{ "/" | absolute_url }}">CAD/Mechanical</a></li>
+              <li class="{% if page.url contains '/labs/' %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Programming</a></li>
+            </ul>
+					</nav>
         </header>
     </div>
 
